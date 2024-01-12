@@ -1,0 +1,11 @@
+server:
+  port: 9096
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sahil6900/ConfigServer
+          clone-on-start: true
